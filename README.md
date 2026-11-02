@@ -33,7 +33,7 @@ Paper: coming soon.
 2. Extract it and start the simulator:
    - **Windows:** run `InterSim.exe`. If SmartScreen warns about an unknown app, click *More info* → *Run anyway*.
    - **Linux:** run `./InterSim.x86_64` from the extracted folder.
-   - **macOS:** the app is not signed, so run `xattr -dr com.apple.quarantine InterSim.app` in Terminal once, then open `InterSim.app`.
+   - **macOS:** the app isn't notarized by Apple, so macOS blocks it the first time you open it ("InterSim" Not Opened). Click *Done*, go to *System Settings* → *Privacy & Security*, click *Open Anyway* next to the InterSim message, and confirm with your password. Alternatively, run `xattr -dr com.apple.quarantine InterSim.app` in Terminal once, then open `InterSim.app`.
 3. In the main menu, pick an intersection and a vehicle. A steering wheel with pedals is recommended (we use a Logitech G29); keyboard control also works.
 
 ### Open the Unity project
