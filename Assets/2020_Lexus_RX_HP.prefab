@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5263825918694442561
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -9152445868131678930, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.000029905583
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.95288086
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.008479223
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8343425251313373912, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_Name
+      value: DoorFrontRight
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6761648637354066509, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6179597539755251147, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5194695777053067426, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_Name
+      value: DoorFrontLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: -4657646125753921936, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4015751025040669247, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3733093843573079625, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3662487043851448761, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3216999631630566940, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2299422877042584563, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1656799288004377066, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1388985755712497931, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_Name
+      value: WheelFrontRight
+      objectReference: {fileID: 0}
+    - target: {fileID: -1386633186172702150, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -464679550020373277, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_Name
+      value: 2020_Lexus_RX_HP
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529090404796874331, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742045248851780129, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781514489444688795, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249860542083058766, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272217150970315195, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469442316908707323, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_Name
+      value: WheelFrontLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 3611209147848293817, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087459259679819925, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542648118399825139, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693167190513203291, guid: f4b1b51140029874c872489feb4414b4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f4b1b51140029874c872489feb4414b4, type: 3}

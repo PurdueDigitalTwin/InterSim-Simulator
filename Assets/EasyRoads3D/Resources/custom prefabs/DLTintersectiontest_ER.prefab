@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2460132419657668324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4589384389094768776}
+  - component: {fileID: 5349031493339190616}
+  - component: {fileID: 4427917520232872800}
+  - component: {fileID: 6811180209536271373}
+  - component: {fileID: 2251276407432000778}
+  m_Layer: 0
+  m_Name: DLTintersectiontest_ER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4589384389094768776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460132419657668324}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5349031493339190616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460132419657668324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2039104457, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crossingElements: []
+  sidewalkControlElements: []
+  siblings: []
+  orderedSiblings: []
+  priorityRoads: []
+  turnSWAroundCornerThreshold: 5
+  meshVecs:
+  - {x: 1.9999875, y: 0.00000333786, z: -110.36383}
+  - {x: 1.9999869, y: 0.000003695488, z: -123.773834}
+  - {x: -5.348173, y: 0.0000038146973, z: -123.773834}
+  - {x: -5.3481727, y: 0.00000333786, z: -110.36383}
+  - {x: -9.445827, y: 0.0000038146973, z: -123.773834}
+  - {x: -9.445826, y: 0.0000038146973, z: -112.639465}
+  - {x: -16.793983, y: 0.0000038146973, z: -123.773834}
+  - {x: -16.793983, y: 0.0000038146973, z: -112.639465}
+  - {x: -9.445826, y: 0.000002861023, z: -110.36383}
+  - {x: -16.793983, y: 0.0000038146973, z: -110.36383}
+  - {x: -18.134987, y: 0.0000038146973, z: -113.721214}
+  - {x: -18.134987, y: 0.0000038146973, z: -122.41447}
+  - {x: -19.475988, y: 0.0000038146973, z: -114.25101}
+  - {x: -19.475988, y: 0.0000038146973, z: -121.607056}
+  - {x: -24.706959, y: 0.0000038146973, z: -114.29096}
+  - {x: -24.706959, y: 0.0000038146973, z: -121.599754}
+  fullMeshVecs:
+  - {x: 1.9999875, y: 0.00000333786, z: -110.36383}
+  - {x: 1.9999869, y: 0.000003695488, z: -123.773834}
+  - {x: -5.348173, y: 0.0000038146973, z: -123.773834}
+  - {x: -5.3481727, y: 0.00000333786, z: -110.36383}
+  - {x: -9.445827, y: 0.0000038146973, z: -123.773834}
+  - {x: -9.445826, y: 0.0000038146973, z: -112.639465}
+  - {x: -16.793983, y: 0.0000038146973, z: -123.773834}
+  - {x: -16.793983, y: 0.0000038146973, z: -112.639465}
+  - {x: -9.445826, y: 0.000002861023, z: -110.36383}
+  - {x: -16.793983, y: 0.0000038146973, z: -110.36383}
+  - {x: -18.134987, y: 0.0000038146973, z: -113.721214}
+  - {x: -18.134987, y: 0.0000038146973, z: -122.41447}
+  - {x: -19.475988, y: 0.0000038146973, z: -114.25101}
+  - {x: -19.475988, y: 0.0000038146973, z: -121.607056}
+  - {x: -24.706959, y: 0.0000038146973, z: -114.29096}
+  - {x: -24.706959, y: 0.0000038146973, z: -121.599754}
+  tmpMeshVecs:
+  - {x: 1.9999875, y: 0.00000333786, z: -110.36383}
+  - {x: 1.9999869, y: 0.000003695488, z: -123.773834}
+  - {x: -5.348173, y: 0.0000038146973, z: -123.773834}
+  - {x: -5.3481727, y: 0.00000333786, z: -110.36383}
+  - {x: -9.445827, y: 0.0000038146973, z: -123.773834}
+  - {x: -9.445826, y: 0.0000038146973, z: -112.639465}
+  - {x: -16.793983, y: 0.0000038146973, z: -123.773834}
+  - {x: -16.793983, y: 0.0000038146973, z: -112.639465}
+  - {x: -9.445826, y: 0.000002861023, z: -110.36383}
+  - {x: -16.793983, y: 0.0000038146973, z: -110.36383}
+  - {x: -18.134987, y: 0.0000038146973, z: -113.721214}
+  - {x: -18.134987, y: 0.0000038146973, z: -122.41447}
+  - {x: -19.475988, y: 0.0000038146973, z: -114.25101}
+  - {x: -19.475988, y: 0.0000038146973, z: -121.607056}
+  - {x: -24.706959, y: 0.0000038146973, z: -114.29096}
+  - {x: -24.706959, y: 0.0000038146973, z: -121.599754}
+  tmpFullMeshVecs:
+  - {x: 1.9999875, y: 0.00000333786, z: -110.36383}
+  - {x: 1.9999869, y: 0.000003695488, z: -123.773834}
+  - {x: -5.348173, y: 0.0000038146973, z: -123.773834}
+  - {x: -5.3481727, y: 0.00000333786, z: -110.36383}
+  - {x: -9.445827, y: 0.0000038146973, z: -123.773834}
+  - {x: -9.445826, y: 0.0000038146973, z: -112.639465}
+  - {x: -16.793983, y: 0.0000038146973, z: -123.773834}
+  - {x: -16.793983, y: 0.0000038146973, z: -112.639465}
+  - {x: -9.445826, y: 0.000002861023, z: -110.36383}
+  - {x: -16.793983, y: 0.0000038146973, z: -110.36383}
+  - {x: -18.134987, y: 0.0000038146973, z: -113.721214}
+  - {x: -18.134987, y: 0.0000038146973, z: -122.41447}
+  - {x: -19.475988, y: 0.0000038146973, z: -114.25101}
+  - {x: -19.475988, y: 0.0000038146973, z: -121.607056}
+  - {x: -24.706959, y: 0.0000038146973, z: -114.29096}
+  - {x: -24.706959, y: 0.0000038146973, z: -121.599754}
+  tCrossingTmpFullMeshVecs: []
+  outerVecInts: 
+  surfaceVecs: []
+  surfaceVecType: 
+  surfaceConnectionInt: 
+  tCrossingBlendData: []
+  childObjects: []
+  indentVecs: []
+  sourcePrefab: {fileID: 0}
+  prefabId: 597304281
+  guid: 19dca67202fc8874b8785739d25dfb0f
+  prioritySegments: 
+  minNodeDistance: 3
+  nodeWithinRange: -1
+  sourceObject: {fileID: 919132149155446097, guid: 11d15b7eb7701ae4caff72e137ccf7d2, type: 3}
+  meshInstance: 0
+  selectedConnection: -1
+  QDOOOQOOQQQQD: []
+  deformTerrain: 1
+  isRoundabout: 0
+  isERCrossing: 0
+  isYConnector: 0
+  isIConnector: 0
+  isFlexConnector: 0
+  isSnapConnector: 0
+  isExitRoadConnector: 0
+  prefabCenterDummy: {x: 0, y: 0, z: 0}
+  snapRadius: 3
+  roundaboutScript: {fileID: 0}
+  crossingsScript: {fileID: 0}
+  iConnectorScript: {fileID: 0}
+  isCustomPrefab: 1
+  customPrefabVersion: 0
+  recalculateNormals: 0
+  planarUVs: 0
+  planarTiling: 1
+  lastVecRoadIndex: 0
+  isSceneObject: 0
+  surfaceObject: {fileID: 0}
+  surfaceMeshVecs: []
+  tmpSurfaceMeshVecs: []
+  tmpSurfaceVecsTCrossings: []
+  surfaceInts: 
+  leftBottomCorner: {x: 0, y: 0, z: 0}
+  leftTopCorner: {x: 0, y: 0, z: 0}
+  rightBottomCorner: {x: 0, y: 0, z: 0}
+  rightTopCorner: {x: 0, y: 0, z: 0}
+  tCrossing: 0
+  tStraightBending: 1
+  tCrossingLeftRight: 1
+  tMainRoadWidth: 0
+  tConnectionRoadWidth: 0
+  bottomLeftSidewalkWidth: 0
+  bottomLeftSidewalkOuterOffset: 0
+  bottomLeftSidewalkCurbDepth: 0
+  bottomRightSidewalkWidth: 0
+  bottomRightSidewalkOuterOffset: 0
+  bottomRightSidewalkCurbDepth: 0
+  topLeftSidewalkWidth: 0
+  topLeftSidewalkOuterOffset: 0
+  topLeftSidewalkCurbDepth: 0
+  topRightSidewalkWidth: 0
+  topRightSidewalkOuterOffset: 0
+  topRightSidewalkCurbDepth: 0
+  v32Sidewalks: 1
+  testVec: {x: 0, y: 0, z: 0}
+  surfaceSurroundingInts: 
+  rotationPriorityElement: -1
+  cornerPos: {x: 0, y: 0, z: 0}
+  mainCorner: {x: 0, y: 0, z: 0}
+  connectedCorner: {x: 0, y: 0, z: 0}
+  mainVecOuter: {x: 0, y: 0, z: 0}
+  connectionVecOuter: {x: 0, y: 0, z: 0}
+  indentTopVec: {x: 0, y: 0, z: 0}
+  indentRightVec: {x: 0, y: 0, z: 0}
+  mainIndent: {x: 0, y: 0, z: 0}
+  connectionIndent: {x: 0, y: 0, z: 0}
+  selectedRotationConnection: 0
+  bottomVec: {x: 0, y: 0, z: 0}
+  rightVec: {x: 0, y: 0, z: 0}
+  bottomIndent: {x: 0, y: 0, z: 0}
+  rightIndent: {x: 0, y: 0, z: 0}
+  sAngle: 90
+  baseScript: {fileID: 0}
+  QDQDQOOQQDQOQQ: 0
+  tp1: {x: 0, y: 0, z: 0}
+  tp2: {x: 0, y: 0, z: 0}
+  doTerrainDeformation: 1
+  includeOuterVertices: 1
+  averageNormals: 1
+  surroundingDistance: 0
+  surfaceMesh: {fileID: 0}
+  debugVecs1: []
+  debugVecs2: []
+  lightmapAdjusted: 0
+  isFlexUpdating: 0
+  oldPosition: {x: 0, y: 0, z: 0}
+  oldRotation: {x: 0, y: 0, z: 0}
+  lockScale: 1
+  extraIndentMargin: 0
+  indent: 0
+  surrounding: 0
+  customTriangulation: 0
+  roundingPointsSet: 0
+  signPostsSet: 0
+  displayLaneData: 1
+--- !u!33 &4427917520232872800
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460132419657668324}
+  m_Mesh: {fileID: 4300000, guid: 27db6c06d6352d143afe779ffd1c4128, type: 2}
+--- !u!23 &6811180209536271373
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460132419657668324}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -3846018093981099296, guid: 11d15b7eb7701ae4caff72e137ccf7d2, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2251276407432000778
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460132419657668324}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 27db6c06d6352d143afe779ffd1c4128, type: 2}

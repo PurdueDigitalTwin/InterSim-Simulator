@@ -1,0 +1,7 @@
+# Textures, 3D models, audio, video, fonts and PDFs are not stored in this repository
+# (see .gitignore). The complete Unity project is on Zenodo. Git LFS is not used.
+
+# Binary files that are kept in the repository
+*.dll binary
+*.gif binary
+*.webp binary
