@@ -6,6 +6,7 @@
 [![Paper](https://img.shields.io/badge/arXiv-2611.05968-b31b1b?logo=arxiv)](https://arxiv.org/abs/2611.05968)
 [![Unity](https://img.shields.io/badge/Unity-6000.6.6f1-black?logo=unity)](https://unity.com/releases/editor/archive)
 [![Full Project](https://img.shields.io/badge/Zenodo-Full%20Project-1682D4)](https://zenodo.org/records/23889549)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Full%20Project-FFD21E?logo=huggingface)](https://huggingface.co/datasets/James55158075/InterSim)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 InterSim is a Unity-based human-in-the-loop driving simulator with digital twins of five innovative intersections: Displaced Left Turn (DLT), Reduced Conflict Intersection (RCI), Roundabout Interchange (RBI), Diverging Diamond Interchange (DDI) and Two-Lane Roundabout (RAB).
@@ -38,9 +39,9 @@ Paper: [arXiv:2611.05968](https://arxiv.org/abs/2611.05968)
 
 ### Open the Unity project
 
-This repository has the scripts, scenes, prefabs, materials and project settings, but not the textures, 3D models or audio. Those files are left out because of TurboSquid license restrictions on the vehicle 3D models and textures (see [Notes](#notes)) and because of file size limits. You can still clone this repository and open it in Unity to look at the code and scenes, but surfaces have no textures, and the vehicle and intersection models don't appear. The complete Unity project is on Zenodo, and downloading it requires our approval. If you only want to try a working demo of the simulator, download a prebuilt package from [Releases](https://github.com/PurdueDigitalTwin/InterSim-Simulator/releases) instead (see [Run the prebuilt simulator](#run-the-prebuilt-simulator)).
+This repository has the scripts, scenes, prefabs, materials and project settings, but not the textures, 3D models or audio. Those files are left out because of TurboSquid license restrictions on the vehicle 3D models and textures (see [Notes](#notes)) and because of file size limits. You can still clone this repository and open it in Unity to look at the code and scenes, but surfaces have no textures, and the vehicle and intersection models don't appear. The complete Unity project is on Zenodo and [Hugging Face](https://huggingface.co/datasets/James55158075/InterSim), and downloading it requires our approval. If you only want to try a working demo of the simulator, download a prebuilt package from [Releases](https://github.com/PurdueDigitalTwin/InterSim-Simulator/releases) instead (see [Run the prebuilt simulator](#run-the-prebuilt-simulator)).
 
-1. Request access to the [InterSim Zenodo record](https://zenodo.org/records/23889549). Once your request is approved, download `InterSim-FullProject.zip` (about 5 GB) and extract it.
+1. Request access on either the [InterSim Zenodo record](https://zenodo.org/records/23889549) or the [InterSim Hugging Face dataset](https://huggingface.co/datasets/James55158075/InterSim). Once your request is approved, download `InterSim-FullProject.zip` (about 3.6 GB) and extract it. On Hugging Face you can also download it from a terminal with `hf download James55158075/InterSim InterSim-FullProject.zip --repo-type dataset --local-dir .` after `hf auth login`.
 2. Install [Unity Hub](https://unity.com/download). In Unity Hub, click *Add* → *Add project from disk* and select the extracted `InterSim` folder. Unity Hub will offer to install the required editor version (6000.6.6f1).
 3. Open the project. The first import takes a while because Unity rebuilds its `Library` cache.
 4. Open `Assets/Scenes/Main/MainMenu.unity` and press **Play**. The five intersection scenes are in the same folder.
@@ -56,11 +57,11 @@ git reset origin/main
 git branch -u origin/main
 ```
 
-After that, `git pull` updates the scripts, scenes and settings, and the textures and models from Zenodo stay in place.
+After that, `git pull` updates the scripts, scenes and settings, and the textures and models from the full project stay in place.
 
 ## Notes
 
-The vehicle models in the Zenodo project (the meshes and textures in `Assets/Models/Vehicles`) are commercial 3D models purchased from TurboSquid. This is why the Zenodo files are restricted: request access there, and we approve requests for research use. **Please do not redistribute the vehicle models.** The prebuilt packages in Releases already include the vehicles. For questions about access or the vehicle models, please contact Luyang Jiang ([luyang@purdue.edu](mailto:luyang@purdue.edu)).
+The vehicle models in the full project (the meshes and textures in `Assets/Models/Vehicles`) are commercial 3D models purchased from TurboSquid. This is why the full-project downloads on Zenodo and Hugging Face are restricted: request access on either one, and we approve requests for research use. **Please do not redistribute the vehicle models.** The prebuilt packages in Releases already include the vehicles. For questions about access or the vehicle models, please contact Luyang Jiang ([luyang@purdue.edu](mailto:luyang@purdue.edu)).
 
 ## Citation
 
