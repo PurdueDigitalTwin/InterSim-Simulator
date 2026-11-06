@@ -2,21 +2,21 @@
 
 **InterSim: Innovative Intersection Digital Twins for Human-in-the-Loop Driving Simulation**
 
-[![Project Page](https://img.shields.io/badge/Project-Page-CFB991)](https://purduedigitaltwin.github.io/intersim/)
-[![Paper](https://img.shields.io/badge/Paper-Coming%20Soon-lightgrey)](#)
+[![Project Page](https://img.shields.io/badge/Project-Page-CFB991)](https://purduedigitaltwin.github.io/InterSim/)
+[![Paper](https://img.shields.io/badge/arXiv-2611.05968-b31b1b?logo=arxiv)](https://arxiv.org/abs/2611.05968)
 [![Unity](https://img.shields.io/badge/Unity-6000.6.6f1-black?logo=unity)](https://unity.com/releases/editor/archive)
 [![Full Project](https://img.shields.io/badge/Zenodo-Full%20Project-1682D4)](https://zenodo.org/records/23889549)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 InterSim is a Unity-based human-in-the-loop driving simulator with digital twins of five innovative intersections: Displaced Left Turn (DLT), Reduced Conflict Intersection (RCI), Roundabout Interchange (RBI), Diverging Diamond Interchange (DDI) and Two-Lane Roundabout (RAB).
 
-Paper: coming soon.
+Paper: [arXiv:2611.05968](https://arxiv.org/abs/2611.05968)
 
 ## Showcase
 
 ### Demo video
 
-[![InterSim demo video](docs/assets/demo_poster.webp)](https://purduedigitaltwin.github.io/intersim/#video)
+[![InterSim demo video](docs/assets/demo_poster.webp)](https://purduedigitaltwin.github.io/InterSim/#video)
 
 ### System architecture
 
@@ -65,13 +65,14 @@ The vehicle models in the Zenodo project (the meshes and textures in `Assets/Mod
 ## Citation
 
 ```bibtex
-@misc{jiang2026intersim,
-  title  = {InterSim: Innovative Intersection Digital Twins for
-            Human-in-the-Loop Driving Simulation},
-  author = {Jiang, Luyang and Wei, Chuheng and Li, Yaguang and
-            Wang, Shaoqi and Zhou, Yupeng and Yun, Hyunsoo and
-            Liao, Xishun and Pitts, Brandon and Wang, Ziran},
-  year   = {2026}
+@misc{jiang2026intersiminnovativeintersectiondigital,
+      title={InterSim: Innovative Intersection Digital Twins for Human-in-the-Loop Driving Simulation},
+      author={Luyang Jiang and Chuheng Wei and Yaguang Li and Shaoqi Wang and Yupeng Zhou and Hyunsoo Yun and Xishun Liao and Brandon Pitts and Ziran Wang},
+      year={2026},
+      eprint={2611.05968},
+      archivePrefix={arXiv},
+      primaryClass={cs.CE},
+      url={https://arxiv.org/abs/2611.05968},
 }
 ```
 
